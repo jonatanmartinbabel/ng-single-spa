@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "ES2015",
+    "declaration": true,
+    "declarationDir": "lib"
+  },
+  "include": [
+    "src/browser-lib/**/*"
+  ],
+  "exclude": [
+    "src/browser-lib/parcel-lib"
+  ]
+}
